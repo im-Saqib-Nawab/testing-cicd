@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Debug logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data / Uploads
+pids
+*.pid
+*.seed
+*.pid.lock
+public/uploads/
+
+# Environment variables (CRITICAL to ignore to protect database credentials)
+.env
+.env.test
+.env.production
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
